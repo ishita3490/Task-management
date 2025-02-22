@@ -34,6 +34,7 @@ git clone https://github.com/ishita3490/Task-management.git
    - Select "Open with Live Server"
 
 ## Project Structure
+```
 
 task-manager/
 ├── index.html
@@ -44,6 +45,9 @@ task-manager/
 │   ├── taskManager.js
 │   └── utils.js
 └── README.md
+
+```
+
 
 
 ## Usage
