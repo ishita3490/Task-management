@@ -32,7 +32,7 @@ A lightweight task management application built with vanilla JavaScript that hel
 
 1. Clone the repository:
  ⁠bash
-git clone https://github.com/yourusername/task-manager.git
+git clone https://github.com/ishita3490/Task-management.git
 
 
 ⁠ 2. Navigate to the project directory:
@@ -43,19 +43,6 @@ cd task-manager
 3. Open the project:
    - For local development, you can use a local server like Live Server in VS Code
    - Alternatively, simply open `index.html` in your web browser
-
-## Project Structure
-
-
-task-manager/
-├── index.html          # Main HTML file
-├── css/
-│   └── styles.css      # Styling
-├── js/
-│   ├── app.js         # Main application logic
-│   ├── taskManager.js # Task management class
-│   └── utils.js       # Utility functions
-└── README.md          # Project documentation
 
 
 ## Usage Guide
