@@ -1,81 +1,69 @@
-A lightweight task management application built with vanilla JavaScript that helps users organize and track their tasks efficiently.
+# Task Manager
+
+A modern task management application built with vanilla JavaScript. Organize tasks with priorities, due dates, and real-time filtering.
+
+## Screenshots
+
+### Dashboard
+![Dashboard](photos/1.png)
+
+### Task Management
+![Task Management](photos/2.png)
+
 
 ## Features
 
-- **Task Management**
-  - Add new tasks with title, description, due date, and priority
-  - Edit existing tasks
-  - Delete tasks
-  - Mark tasks as complete/incomplete
-  - Tasks automatically categorized into upcoming, overdue, and completed
+- ✅ Create, edit, and delete tasks
+- 📅 Set due dates and priority levels
+- 🔄 Track task completion status
+- 🔍 Search and filter tasks
+- 📱 Responsive design
+- 💾 Local storage persistence
 
-- **Task Organization**
-  - Three priority levels (High, Medium, Low)
-  - Visual indicators for different priority levels
-  - Automatic categorization based on due dates
-  - Tasks persist across browser sessions using localStorage
-
-- **Search and Filter**
-  - Search tasks by title or description
-  - Filter tasks by priority level
-  - Filter by completion status
-  - Real-time filtering and search results
-
-## Technologies Used
-
-- HTML5
-- CSS3 (with Flexbox and Grid)
-- Vanilla JavaScript (ES6+)
-- localStorage for data persistence
-
-## Setup Instructions
+## Quick Start
 
 1. Clone the repository:
  ⁠bash
 git clone https://github.com/ishita3490/Task-management.git
 
 
-⁠ 2. Navigate to the project directory:
- ⁠bash
-cd task-manager
+2. Open with Live Server in VS Code:
+   - Install VS Code
+   - Install "Live Server" extension
+   - Right-click `index.html`
+   - Select "Open with Live Server"
+
+## Project Structure
+
+task-manager/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   ├── app.js
+│   ├── taskManager.js
+│   └── utils.js
+└── README.md
 
 
-3. Open the project:
-   - For local development, you can use a local server like Live Server in VS Code
-   - Alternatively, simply open `index.html` in your web browser
+## Usage
 
-
-## Usage Guide
-
-### Adding a Task
-1. Fill in the task details in the "Add New Task" form:
-   - Title (required)
-   - Description (required)
-   - Due Date (required)
-   - Priority Level (High/Medium/Low)
-2. Click "Add Task" to create the task
+### Adding Tasks
+- Fill in task details (title, description, due date, priority)
+- Click "Add Task"
 
 ### Managing Tasks
-- **Edit**: Click the "Edit" button on a task to modify its details
-- **Delete**: Click the "Delete" button to remove a task
-- **Complete/Uncomplete**: Click the "Complete" button to toggle task completion
+- Edit: Click ✏️ button
+- Delete: Click 🗑️ button
+- Complete/Uncomplete: Click ✓ button
 
-### Searching and Filtering
-- Use the search bar to find tasks by title or description
-- Use the priority filter dropdown to show tasks of specific priority
-- Use the status filter to show completed or pending tasks
+### Search & Filter
+- Use search bar for title/description search
+- Use dropdowns to filter by priority and status
 
-## Browser Support
+## Technologies
 
-The application supports all modern browsers:
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
-## Technical Details
-
-### Local Storage
-- Tasks are automatically saved to browser's localStorage
-- Data persists across browser sessions
-- No server-side storage required
+- HTML5
+- CSS3 (Flexbox & Grid)
+- Vanilla JavaScript
+- LocalStorage
